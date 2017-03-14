@@ -16,7 +16,7 @@ var person = {name:"Ernest", age:32};
  */
 greet(person.name);
 function greet (name){
-	console.log("hello, my name is "+ name);
+	console.log("Hello, my name is "+ name);
 }
 
 
@@ -24,7 +24,7 @@ function greet (name){
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
-var dataTypes = [true,34,"cheese",null,[dog,cat],undefined,{stuff:tuff}];
+var dataTypes = [true,34,"cheese",null,["dog","cat"],undefined,{stuff:"tuff"}];
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
@@ -33,7 +33,7 @@ var dataTypes = [true,34,"cheese",null,[dog,cat],undefined,{stuff:tuff}];
 var dog = {name:"Spot"};
 
 function bark(){
-	return "BARK!";
+	return "bark";
 }
 
 console.log(bark());
