@@ -30,11 +30,11 @@ var dataTypes = [true,34,"cheese",null,["dog","cat"],undefined,{stuff:"tuff"}];
  * It should also have a name attribute with the value of 'Spot'
  */
 
-var dog = {name:"Spot"};
+var dog = {
+	name:"Spot",
+ 	bark: function(){ 
+ 		console.log( "bark");
+	}
+ };
 
-function bark(){
-	return "bark";
-}
-
-console.log(bark());
 
